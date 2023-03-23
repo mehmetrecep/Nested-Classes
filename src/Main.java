@@ -34,13 +34,13 @@ public class Main {
                 innerClass.new NonStaticClassInsideInnerClass();
         nonStaticClassInsideInnerClass.instanceMethod();
         System.out.println("-------");
-        Object ramadanMubark = new Object(){
+        Object anonymous = new Object(){
             @Override
             public String toString() {
-                return "Ramadan Mubarak \uD83C\uDF89";
+                return "Anonymous Class";
             }
         };
-        System.out.println(ramadanMubark);
+        System.out.println(anonymous);
 
     }
 }
